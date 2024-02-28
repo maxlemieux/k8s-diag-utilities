@@ -19,7 +19,7 @@ This enables `pixie-diag.sh` to provide some additional logging specific to Pixi
 
 Run from a terminal with `kubectl` access to cluster. The namespace will typically be either `px` or `newrelic`, depending on your installation.
 ```
-curl -o pixie-diag.sh -s https://raw.githubusercontent.com/newrelic-experimental/pixie-utilities/main/pixie-diag/pixie-diag.sh
+curl -o pixie-diag.sh -s https://raw.githubusercontent.com/newrelic-experimental/k8s-diag-utilities/main/pixie-diag/pixie-diag.sh
 chmod +x pixie-diag.sh
 ./pixie-diag.sh newrelic
 ```

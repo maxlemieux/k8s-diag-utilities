@@ -22,8 +22,8 @@ echo -e "Checking agent status\n"
 echo -e "*****************************************************\n"
 
 # Check for px
-if ! [ -x "$(command -v px)" ]; then
-  echo 'Error: px is not installed.' >&2
+if ! [ -x "$(command -v /usr/local/bin/px)" ]; then
+  echo 'Pixie `px` utility is not installed.' >&2
 else
   echo "Get agent status from Pixie"
   px run px/agent_status
